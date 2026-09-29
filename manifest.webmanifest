@@ -1,23 +1,20 @@
 {
   "name": "Budżet domowy",
   "short_name": "Budżet",
-  "start_url": "./",
+  "start_url": "/budzet-domowy/",
   "display": "standalone",
   "background_color": "#080d12",
   "theme_color": "#0d3b33",
   "lang": "pl",
   "icons": [
     {
-      "src": "./icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "./icon-512.png",
-      "sizes": "512x512",
+      "src": "favicon.png",
+      "sizes": "64x64",
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ]
+  ],
+  "id": "/budzet-domowy/",
+  "scope": "/budzet-domowy/",
+  "description": "Budżet domowy – zarządzanie dochodami, wydatkami i oszczędnościami."
 }
